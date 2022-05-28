@@ -18,6 +18,23 @@ img{
     max-width: 100%;
     height: auto;
 }
+.alignLeft{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+.alignRight{
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+}
+.alignCenter{
+    display: block;
+    margin:0 auto 15px;
+
+}
 
 /*==================
 Top Header CSs
@@ -292,4 +309,41 @@ Slider CSs
 .slider_caption h1{
     color: #0bdcb2;
     font-size: 35px;
+}
+
+/*==================
+Hero Area
+===================*/
+#hero_area{
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+.inner_hero{
+    overflow: hidden;
+
+}
+.inner_hero h2{
+    color: #000;
+    font-size: 86px;
+    line-height: 1em;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.inner_hero p{
+    color: #666;
+    font-size: 16px;
+    font-weight: normal;
+}
+.inner_hero a{
+    float: right;
+    color: #ba2e1f;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.inner_hero a:hover{
+    
+    color: #000;
+ 
 }
