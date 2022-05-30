@@ -347,3 +347,117 @@ Hero Area
     color: #000;
  
 }
+
+/*==================
+Work Area
+===================*/
+
+#work_area{
+   background: #f2f2f2;
+   padding: 45px 0;
+   height: 800px;
+}
+
+.child_work{
+    width:32% ;
+    float: left;
+    margin: 0 1% 10px;
+}
+.child_work p{
+    font-size: 14px;
+    color: #878787;
+    font-weight: normal;
+}
+
+.inner_work{
+    overflow: hidden;
+}
+.about_area{
+    margin-left: 0;
+}
+.about_area img{
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 19px;
+}
+.service_area{
+
+}
+.child_service{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.child_service .service_image{
+    width: 25%;
+    float: left;
+}
+.child_service .service_text{
+    width: 70%;
+    float: right;
+}
+.child_service .service_text h3{
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.child_service .service_text p{
+   
+    margin-top: 0;
+    line-height: 1.8em;
+    
+}
+.testimonial_area{
+    margin-right: 0;
+}
+.child_testimonial{
+    width: 100%;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.child_testimonial h3{
+    text-transform: capitalize;
+    color: #989898;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Passion+One&family=Ubuntu:wght@500;700&display=swap');
+.child_testimonial h3 strong{
+    font-size: 70px;
+    font-family: 'Passion One', cursive;
+ }
+
+
+
+
+
+.child_work h2{
+    text-transform: capitalize;
+    color: #333;
+    font-size: 24px;
+    font-weight: normal;
+}
+.child_work  a{
+    text-decoration: none;
+    color: #b92d1f;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: capitalize;
+    clear: both;
+    float: right;
+    display: inline-block;
+    
+}
+.child_work  a:hover{
+    color: #262626;
+}
+
+
+
+.service_image img{
+    width: 64px;
+}
